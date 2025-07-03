@@ -63,6 +63,9 @@ public class TagServiceImpl implements TagService {
     @Override
     @Transactional
     public void deleteTag(UUID id) {
+        if (id == null){
+            throw new IllegalArgumentException("Id cannot be null");
+        }
         tagRepository.findById(id).ifPresentOrElse(
                 tag -> tagRepository.delete(tag),
                 () -> {

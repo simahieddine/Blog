@@ -1,4 +1,4 @@
-package com.maison.blog.domain.dtos;
+package com.maison.blog.domain.dtos.Category;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

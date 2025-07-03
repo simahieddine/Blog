@@ -1,4 +1,4 @@
-package com.maison.blog.domain.dtos;
+package com.maison.blog.domain.dtos.Tag;
 
 
 import jakarta.validation.constraints.NotBlank;

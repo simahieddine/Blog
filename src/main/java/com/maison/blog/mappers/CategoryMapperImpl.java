@@ -1,11 +1,10 @@
 package com.maison.blog.mappers;
 
 import com.maison.blog.domain.PostStatus;
-import com.maison.blog.domain.dtos.CategoryDto;
-import com.maison.blog.domain.dtos.CreateCategoryRequest;
+import com.maison.blog.domain.dtos.Category.CategoryDto;
+import com.maison.blog.domain.dtos.Category.CreateCategoryRequest;
 import com.maison.blog.domain.entities.Category;
 import com.maison.blog.domain.entities.Post;
-import com.maison.blog.repositories.CategoryRepository;
 import org.springframework.stereotype.Component;
 
 import java.util.HashSet;

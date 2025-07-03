@@ -1,7 +1,6 @@
-package com.maison.blog.domain.dtos;
+package com.maison.blog.domain.dtos.Tag;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
