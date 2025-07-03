@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.UUID;
 
 public interface TagService {
+    Tag getTagById(UUID id);
     List<Tag> listTags();
     Tag createTag(Tag tag);
     Tag updateTag(Tag tag, UUID id);

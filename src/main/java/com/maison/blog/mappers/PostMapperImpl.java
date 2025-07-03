@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 @Component
 @RequiredArgsConstructor
-public class PostMapperImpl implements postMapper {
+public class PostMapperImpl implements PostMapper {
     private final UserMapper userMapper;
     private final CategoryMapper categoryMapper;
     private final TagMapper tagMapper;

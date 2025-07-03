@@ -4,7 +4,7 @@ import com.maison.blog.domain.dtos.Post.CreatePostRequest;
 import com.maison.blog.domain.dtos.Post.PostDto;
 import com.maison.blog.domain.entities.Post;
 
-public interface postMapper {
+public interface PostMapper {
 
     PostDto toDto(Post post);
 
