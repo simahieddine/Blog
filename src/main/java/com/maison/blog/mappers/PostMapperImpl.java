@@ -53,4 +53,6 @@ public class PostMapperImpl implements PostMapper {
         int readingSpeed = 200; // words per minute
         return Math.max(1, (int) Math.ceil((double) wordsCount / readingSpeed)); // évite 0
     }
+
+
 }

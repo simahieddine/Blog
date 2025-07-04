@@ -1,10 +1,18 @@
 package com.maison.blog.services;
 
+import com.maison.blog.domain.dtos.Post.CreatePostRequest;
 import com.maison.blog.domain.entities.Post;
+import com.maison.blog.domain.entities.User;
 
 import java.util.List;
 import java.util.UUID;
 
 public interface PostService {
     List<Post> getAllPosts(UUID categoryId, UUID tagId);
+
+    Post getPost(UUID id);
+
+    Post createPost(User user, CreatePostRequest request);
+
+    void deletePost(UUID id);
 }
