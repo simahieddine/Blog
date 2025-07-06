@@ -1,7 +1,8 @@
-package com.maison.blog.services;
+package com.maison.blog.services.Impl;
 
 import com.maison.blog.domain.entities.Category;
 import com.maison.blog.repositories.CategoryRepository;
+import com.maison.blog.services.CategoryService;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.transaction.annotation.Transactional;
 import lombok.RequiredArgsConstructor;

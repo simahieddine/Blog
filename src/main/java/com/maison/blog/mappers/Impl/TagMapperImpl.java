@@ -1,17 +1,18 @@
-package com.maison.blog.mappers;
+package com.maison.blog.mappers.Impl;
 
 import com.maison.blog.domain.PostStatus;
 import com.maison.blog.domain.dtos.Tag.CreateTagRequest;
 import com.maison.blog.domain.dtos.Tag.TagDto;
 import com.maison.blog.domain.entities.Post;
 import com.maison.blog.domain.entities.Tag;
+import com.maison.blog.mappers.TagMapper;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 import java.util.Set;
 
 @Component
-public class TagMapperImpl implements TagMapper{
+public class TagMapperImpl implements TagMapper {
     @Override
     public TagDto toDto(Tag tag) {
         if (tag == null){

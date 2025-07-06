@@ -18,7 +18,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class CreatePostRequest {
+public class CreatePostRequestDto {
     @NotBlank(message = "Title is required")
     @Size(min = 3, max = 200, message = "Title must be between {min} and {max} characters")
     private String title;

@@ -1,7 +1,8 @@
-package com.maison.blog.services;
+package com.maison.blog.services.Impl;
 
 import com.maison.blog.domain.entities.Tag;
 import com.maison.blog.repositories.TagRepository;
+import com.maison.blog.services.TagService;
 import jakarta.persistence.EntityExistsException;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
@@ -9,7 +10,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.Set;
 import java.util.UUID;
 
 @Service
